@@ -1,0 +1,6 @@
+
+year=2020
+_class="LKG"
+db_name=F"HCS_FEE_DETAILS_{year}.db"
+table_name=F"CLASS_{_class}_FEE"
+print(db_name,type(db_name),table_name,type(table_name))

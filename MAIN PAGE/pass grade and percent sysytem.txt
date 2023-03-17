@@ -1,0 +1,12 @@
+75 ^ += A+
+60>75=A
+45>60=B
+33>=45=C
+>33=D
+
+85=< =Distinction
+75=< = star
+60=< =1st division
+45=< =2nd division
+33=< =3rd division
+0=>33 =Fail

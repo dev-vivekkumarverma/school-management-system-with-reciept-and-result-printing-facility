@@ -1,0 +1,5 @@
+table_name=term
+print(table_name)
+year=2000
+db_name=F"HCS_RESULT_{year}.db"
+print(db_name)

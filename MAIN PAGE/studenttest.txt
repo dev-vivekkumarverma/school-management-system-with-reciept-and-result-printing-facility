@@ -1,0 +1,11 @@
+#id=str(year(last 2 digit))+"."+"class".upper()+"."+str("roll")
+_class="01"
+table_name='CLASS_'+str(_class)+'_STUDENTS'.upper()
+print(table_name)
+year=2020
+db_name="HCS_STUDENT_DETAILS_"+str(year)+".db"
+
+print(db_name,type(db_name))
+
+msg=F"{db_name} {table_name} is the new string  !"
+print(msg)

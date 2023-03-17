@@ -1,0 +1,33 @@
+import os
+import tempfile
+def Print(filename,data):
+    _file=tempfile.mktemp(f'{filename}.txt')
+    open(_file,'w').write(data) 
+    os.startfile(_file,"print")
+
+def prnt():
+    
+    msg=f"""HOLY CHILD SCHOOL,Toluvi Village
+        Dimapur, Nagaland
+    ******** RESULT ********
+      YEAR:{year_entry.get()}   ID:{id_entry.get()}
+          EXAM:{exam_entry.get()}
+
+       ENGLISH           : {e1_marks.get()}    
+       MATHEMATICS       : {math_marks.get()}
+       SCIENCE           : {sci_marks.get()}
+       SOCIAL SCIENCE    : {ss_marks.get()}
+       HINDI/EVS         : {hi_evs_marks.get()}
+       ENG-2/ALT.ENGLISH : {e2_alte_marks.get()}
+       G.K.              : {gk_marks.get()}
+       MORAL SCIENCE     : {ms_marks.get()}
+       HERITAGE          : {hrtg_marks.get()}
+       COMPUTER          : {comp_marks.get()}
+    
+**vivekkumarverma332@gmail.com**
+"""
+    x=f"ID_{id_entry.get()}"
+    print(x)
+    Print(x,msg)
+    
+
